@@ -1,5 +1,5 @@
 # ROYECTO1_DYPOO
 
--Jeronimo Vargas Rendon 202113305
+- Jeronimo Vargas Rendon_202113305
 
--Nicolas Camargo 202020782
+- Nicolas Camargo_202020782
