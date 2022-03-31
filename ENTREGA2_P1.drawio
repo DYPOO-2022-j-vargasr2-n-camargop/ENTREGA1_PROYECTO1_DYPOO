@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T21:28:30.953Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="QXLoNMj3OEctTXAyFi6n" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T21:37:43.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="MN_h0xaJ9U1497A3G_WO" version="17.2.4" type="github">
   <diagram id="incmQxMKSfGl5wKCG0BV" name="Page-1">
-    <mxGraphModel dx="1747" dy="1710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1650" dy="1653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XddrjZvcEHtdNuk61_eD-15" value="Actividad" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="725" y="110" width="365" height="270" as="geometry" />
+          <mxGeometry x="725" y="110" width="365" height="240" as="geometry" />
         </mxCell>
         <mxCell id="XddrjZvcEHtdNuk61_eD-16" value="- titulo: String &#xa;- descripción: String&#xa;- autor: String&#xa;- tipo: String&#xa;- fecha: LocalDate&#xa;- hora_inicio: LocalTime&#xa;- hora_final: LocalTime&#xa;- tiempo_invertido: Double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="XddrjZvcEHtdNuk61_eD-15" vertex="1">
           <mxGeometry y="26" width="365" height="124" as="geometry" />
@@ -13,8 +13,8 @@
         <mxCell id="XddrjZvcEHtdNuk61_eD-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="XddrjZvcEHtdNuk61_eD-15" vertex="1">
           <mxGeometry y="150" width="365" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="XddrjZvcEHtdNuk61_eD-18" value="+ ActividadCrono(String titulo, String descripcion, String autor, &#xa;String tipo, LocalDate fecha, LocalTime hora_inicial ,&#xa;LocalTime hora_final, Double tiempo_invertido)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="XddrjZvcEHtdNuk61_eD-15" vertex="1">
-          <mxGeometry y="158" width="365" height="112" as="geometry" />
+        <mxCell id="XddrjZvcEHtdNuk61_eD-18" value="+ modificar_fecha_y_hora(String fecha,String hora_inicio):void&#xa;+ tiempo_invertido(): void&#xa;+ ActividadCrono(String titulo, String descripcion, String autor,&#xa;String tipo, LocalDate fecha, LocalTime hora_inicial ,&#xa;LocalTime hora_final, Double tiempo_invertido): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="XddrjZvcEHtdNuk61_eD-15" vertex="1">
+          <mxGeometry y="158" width="365" height="82" as="geometry" />
         </mxCell>
         <mxCell id="XddrjZvcEHtdNuk61_eD-19" value="Reporte" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-90" y="260" width="280" height="140" as="geometry" />
@@ -100,19 +100,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DFxFiUlvuluB2VAF8abr-1" value="Cronometro" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="920" y="400" width="220" height="154" as="geometry" />
+          <mxGeometry x="920" y="400" width="220" height="214" as="geometry" />
         </mxCell>
-        <mxCell id="DFxFiUlvuluB2VAF8abr-2" value="+ TiempoCalculado: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DFxFiUlvuluB2VAF8abr-1" vertex="1">
-          <mxGeometry y="26" width="220" height="34" as="geometry" />
+        <mxCell id="DFxFiUlvuluB2VAF8abr-2" value="- tiempo_invertido: Double&#xa;- fecha: LocalDate: &#xa;- fecha_inicio: LocalTime&#xa;- fecha_final: LocalTime&#xa;- in_Hora: LocalTime&#xa;-tiempos: ArrayList &lt;Double&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DFxFiUlvuluB2VAF8abr-1" vertex="1">
+          <mxGeometry y="26" width="220" height="94" as="geometry" />
         </mxCell>
         <mxCell id="DFxFiUlvuluB2VAF8abr-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="DFxFiUlvuluB2VAF8abr-1" vertex="1">
-          <mxGeometry y="60" width="220" height="8" as="geometry" />
+          <mxGeometry y="120" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="DFxFiUlvuluB2VAF8abr-4" value="+IniciarCronometraje():void&#xa;+PausarTiempo(): void&#xa;+ReanudarTiempo(): void&#xa;+TerminarCronometraje(). void&#xa;+cronometrarTiempo(timeInicio,timeFinal): float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DFxFiUlvuluB2VAF8abr-1" vertex="1">
-          <mxGeometry y="68" width="220" height="86" as="geometry" />
+        <mxCell id="DFxFiUlvuluB2VAF8abr-4" value="+ iniciar_crono():void&#xa;+ pausar_crono(): void&#xa;+ reanudar(): void&#xa;+ terminar_crono(): void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DFxFiUlvuluB2VAF8abr-1" vertex="1">
+          <mxGeometry y="128" width="220" height="86" as="geometry" />
         </mxCell>
         <mxCell id="DFxFiUlvuluB2VAF8abr-10" value="CONSOLA" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="359.5" y="-190" width="200" height="120" as="geometry" />
+          <mxGeometry x="359.5" y="-240" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="DFxFiUlvuluB2VAF8abr-11" value="-Proyecto: Proyecto&#xa;-br:BufferReader" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DFxFiUlvuluB2VAF8abr-10" vertex="1">
           <mxGeometry y="26" width="200" height="34" as="geometry" />
