@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T23:18:16.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="zWhWAiGM68OssjOUkl-J" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T23:34:45.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="-l80Q3rnfHBY5QkmZ-PC" version="17.2.4" type="github">
   <diagram id="incmQxMKSfGl5wKCG0BV" name="Page-1">
     <mxGraphModel dx="1870" dy="1782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,9 +76,6 @@
         </mxCell>
         <mxCell id="ZXk9ccuYGaarNcg2VIB--58" value="Participantes*&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="434" y="420" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ZXk9ccuYGaarNcg2VIB--59" value="Actividades*&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="534" y="442" width="66" height="12" as="geometry" />
         </mxCell>
         <mxCell id="ZXk9ccuYGaarNcg2VIB--62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZXk9ccuYGaarNcg2VIB--43" target="XddrjZvcEHtdNuk61_eD-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
