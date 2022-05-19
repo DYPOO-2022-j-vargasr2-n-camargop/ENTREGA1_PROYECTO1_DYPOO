@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T02:01:46.278Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="BqfoywJoHktT-NMROTIK" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T00:30:22.283Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="LRzOAyVDKFG5gogmiMfZ" version="18.0.1" type="github">
   <diagram id="incmQxMKSfGl5wKCG0BV" name="Page-1">
-    <mxGraphModel dx="1870" dy="1706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1944" dy="1826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,18 +48,18 @@
           <mxGeometry y="118" width="351" height="72" as="geometry" />
         </mxCell>
         <mxCell id="ZXk9ccuYGaarNcg2VIB--46" value="Participante" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="257.5" y="230" width="404" height="300" as="geometry">
+          <mxGeometry x="257.5" y="230" width="404" height="320" as="geometry">
             <mxRectangle x="289" y="450" width="100" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZXk9ccuYGaarNcg2VIB--47" value="- nombre: String&#xa;- correo: String&#xa;- dueno: Boolean&#xa;- Actividades: HashMap &lt;String, Actividad&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZXk9ccuYGaarNcg2VIB--46" vertex="1">
+        <mxCell id="ZXk9ccuYGaarNcg2VIB--47" value="- nombre: String&#xa;- correo: String&#xa;- dueno: Boolean&#xa;- Actividades: HashMap &lt;String, ArrayList&lt;Actividad&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZXk9ccuYGaarNcg2VIB--46" vertex="1">
           <mxGeometry y="26" width="404" height="64" as="geometry" />
         </mxCell>
         <mxCell id="ZXk9ccuYGaarNcg2VIB--48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="ZXk9ccuYGaarNcg2VIB--46" vertex="1">
           <mxGeometry y="90" width="404" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ZXk9ccuYGaarNcg2VIB--49" value="+ agregar_actividadActividad_valorespordefecto(String titulo, &#xa;String descripcion, String autor, String tipo ,String hora_final): void&#xa;&#xa;+ agregar_actividadActividad_valoresmodificados(String titulo, &#xa;String descripcion, String autor, String tipo ,String fecha,String hora_incio,&#xa;String hora_final): void&#xa;&#xa;+agregar_actividadActividad_Crono(String titulo, String descripcion, &#xa;String autor, String tipo, LocalDate fecha, LocalTime hora_inicial ,&#xa;LocalTime hora_final, Double tiempo_invertido): void&#xa;&#xa;+ calcular_tiempo_invertidototal(): Double&#xa;+ calcular_tiempo_promedio_tipoActividad() : HashMap&lt;String,Double&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZXk9ccuYGaarNcg2VIB--46" vertex="1">
-          <mxGeometry y="98" width="404" height="202" as="geometry" />
+        <mxCell id="ZXk9ccuYGaarNcg2VIB--49" value="+ agregar_actividadActividad_valorespordefecto(String titulo, &#xa;String descripcion, String autor, String tipo ,String hora_final): void&#xa;&#xa;+ agregar_actividadActividad_valoresmodificados(String titulo, &#xa;String descripcion, String autor, String tipo ,String fecha,String hora_incio,&#xa;String hora_final): void&#xa;&#xa;+agregar_actividadActividad_Crono(String titulo, String descripcion, &#xa;String autor, String tipo, LocalDate fecha, LocalTime hora_inicial ,&#xa;LocalTime hora_final, Double tiempo_invertido): void&#xa;&#xa;+ calcular_tiempo_invertidototal(): Double&#xa;+ calcular_tiempo_promedio_tipoActividad() : HashMap&lt;String,Double&gt;&#xa;+ calcular_tiempo_tareaconvarias_Actividades(): Double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZXk9ccuYGaarNcg2VIB--46" vertex="1">
+          <mxGeometry y="98" width="404" height="222" as="geometry" />
         </mxCell>
         <mxCell id="ZXk9ccuYGaarNcg2VIB--53" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.494;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ZXk9ccuYGaarNcg2VIB--46" target="ZXk9ccuYGaarNcg2VIB--45" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -67,7 +67,7 @@
             <mxPoint x="420" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZXk9ccuYGaarNcg2VIB--54" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="DFxFiUlvuluB2VAF8abr-10" edge="1" target="XddrjZvcEHtdNuk61_eD-19">
+        <mxCell id="ZXk9ccuYGaarNcg2VIB--54" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="DFxFiUlvuluB2VAF8abr-10" target="XddrjZvcEHtdNuk61_eD-19" edge="1">
           <mxGeometry x="0.0406" y="-8" width="160" relative="1" as="geometry">
             <mxPoint x="440" y="99.99999999999989" as="sourcePoint" />
             <mxPoint x="145" y="-90" as="targetPoint" />
@@ -109,23 +109,23 @@
         <mxCell id="DFxFiUlvuluB2VAF8abr-13" value="+ MostrarMenu(): void&#xa;+EjecutarAplicacion(): void&#xa;+ crear_proyectp (): void&#xa;+ ejecutar_modificarfechafinal_proyecto(): void&#xa;+ ejecutar_agregar_participante(): void&#xa;+ mostra_info(): void&#xa;+ ejecutar_relizar_reporte(): void&#xa;+ ejecutar_agregar_actividadCrono(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="DFxFiUlvuluB2VAF8abr-10" vertex="1">
           <mxGeometry y="68" width="260" height="132" as="geometry" />
         </mxCell>
-        <mxCell id="z85bov3g-noS7wq9bQUI-1" value="Use" style="endArrow=classic;endSize=12;dashed=1;html=1;edgeStyle=orthogonalEdgeStyle;endFill=1;" edge="1" parent="1" source="DFxFiUlvuluB2VAF8abr-10" target="DFxFiUlvuluB2VAF8abr-1">
+        <mxCell id="z85bov3g-noS7wq9bQUI-1" value="Use" style="endArrow=classic;endSize=12;dashed=1;html=1;edgeStyle=orthogonalEdgeStyle;endFill=1;" parent="1" source="DFxFiUlvuluB2VAF8abr-10" target="DFxFiUlvuluB2VAF8abr-1" edge="1">
           <mxGeometry x="0.0406" y="-8" width="160" relative="1" as="geometry">
             <mxPoint x="369.5" y="-169.92307692307713" as="sourcePoint" />
             <mxPoint x="155" y="-80.00000000000023" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z85bov3g-noS7wq9bQUI-2" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;curved=1;entryX=1.005;entryY=0.299;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XddrjZvcEHtdNuk61_eD-15" target="ZXk9ccuYGaarNcg2VIB--49">
+        <mxCell id="z85bov3g-noS7wq9bQUI-2" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;curved=1;entryX=1.005;entryY=0.299;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="XddrjZvcEHtdNuk61_eD-15" target="ZXk9ccuYGaarNcg2VIB--49" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="469.5" y="230" as="sourcePoint" />
             <mxPoint x="467.39400000000023" y="179.4960000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z85bov3g-noS7wq9bQUI-4" value="1 Participantes *&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="z85bov3g-noS7wq9bQUI-4" value="1 Participantes *&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="469.5" y="190" width="90" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="z85bov3g-noS7wq9bQUI-5" value="1. .. 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="z85bov3g-noS7wq9bQUI-5" value="1. .. 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="460" y="-53" width="90" height="21" as="geometry" />
         </mxCell>
       </root>
